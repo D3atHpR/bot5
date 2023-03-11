@@ -13,7 +13,9 @@ const client = new Client({
     puppeteer: {
         headless: true,
         //args: wppConfig.puppeteerArgs,
-        executablePath:"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+       // executablePath:"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+       
+        executablePath:"/usr/bin/google-chrome-stable"
       },
       ffmpegPath: ffmpeg.path,
 
@@ -75,7 +77,7 @@ if (msg.body === '/btn') {
     //client.sendMessage(msg.from, list);
     //msg.reply(list1)
 msg.reply(`Bot D3
-            Aqui estão alguma opções:
+           Aqui estão alguma opções:
             /st cria figurinhas
             /rc faz reação
             /list faz uma lista           
