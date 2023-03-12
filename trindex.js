@@ -83,6 +83,16 @@ msg.reply(`Bot D3
             /list faz uma lista           
                  `)
 }
+   else{
+    if(msg.mentionedIds){
+        for(let mention of msg.mentionedIds){
+            if(mention ==='556292484223@c.us'){
+                console.log('Mencionou o bot')
+                msg.reply('Não estou podendo falar agora, logo entro em contato.')
+            }
+        }
+    }
+}
 
 
 
