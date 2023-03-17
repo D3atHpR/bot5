@@ -76,7 +76,7 @@ if (msg.body === '/btn') {
     //let list1 = new List('','',selections,'','');
     //client.sendMessage(msg.from, list);
     //msg.reply(list1)
-msg.reply(`Bot D3
+msg.reply(`Bot D3 ☠️
            Aqui estão alguma opções:
             /st cria figurinhas
             /rc faz reação
